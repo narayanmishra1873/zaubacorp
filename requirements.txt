@@ -1,6 +1,6 @@
 fastmcp
 playwright
 playwright-stealth
-google-generativeai
+google-genai
 python-dotenv
 gunicorn

@@ -121,4 +121,5 @@ async def extract_investor_section(company_name: str) -> str:
 if __name__ == "__main__":
     #print(asyncio.run(get_correct_company_name('CashRich is a Mutual fund company')))
     #mcp.run(transport = "streamable-http", host="0.0.0.0", port=8000)
-    mcp.run(transport="streamable-http")
+    port = int(os.environ.get("PORT", 8000)) 
+    mcp.run(transport="sse", port=port)

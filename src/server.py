@@ -67,6 +67,7 @@ async def extract_investor_section(company_name: str) -> str:
             if href and href.startswith("https://www.zaubacorp.com"):
                 links.append(href)
                 count += 1
+                break
                 if count == 10:
                     break
 

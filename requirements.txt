@@ -1,0 +1,6 @@
+fastmcp
+playwright
+playwright-stealth
+google-generativeai
+python-dotenv
+gunicorn
